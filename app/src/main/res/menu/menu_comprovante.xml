@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ComprovantesActivity">
+    <item android:id="@+id/action_compartilhar" android:title="@string/action_compartilhar"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>

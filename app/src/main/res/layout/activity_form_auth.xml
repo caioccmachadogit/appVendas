@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Para começar a fazer o uso de seu aplicativo é necessário validar seu Dispositivo." />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/edtCod"
+            android:maxLength="5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:gravity="center"
+            android:hint="@string/prompt_auth"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <Button
+            android:id="@+id/btnAuth"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+            android:text="@string/btn_auth"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</ScrollView>

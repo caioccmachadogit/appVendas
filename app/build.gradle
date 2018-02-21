@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    compileOptions.encoding = 'windows-1252'
+
+    defaultConfig {
+        applicationId "vip.softwares.appvendas"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 3
+        versionName "3.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:26.0.1'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.okhttp:okhttp:2.7.5'
+    compile project(':library')
+}
