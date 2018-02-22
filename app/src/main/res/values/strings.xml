@@ -4,7 +4,7 @@
     <string name="tit_comp">Comprovante</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">v.190218</string> <!--CORRECAO COMPROVANTE CAMPO DATA -->
+    <string name="action_settings">v.220218</string> <!--CORRECAO COMPROVANTE CAMPO DATA -->
     <string name="action_compartilhar">Compartilhar</string>
     <string name="title_activity_splash">SplashActivity</string>
 

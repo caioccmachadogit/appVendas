@@ -41,6 +41,7 @@ public class SplashActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkPermission()) {
                 Log.d("checkPermission", "PERMITIDO");
+                startSplash();
             }
             else {
                 Log.d("checkPermission", "NAO PERMITIDO");
