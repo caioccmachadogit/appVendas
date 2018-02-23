@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import vip.softwares.appvendas.R;
 import vip.softwares.appvendas.atualizacao.AtualizacaoFragment;
 import vip.softwares.appvendas.comprovantes.ListComprovantesFragment;
@@ -42,14 +43,6 @@ public class MainActivity extends AppCompatActivity {
 		ConfigurarMenu();
 		loadIniciarVenda();
     }
-
-	//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
-//        return true;
-//    }
-
     // ==========PADRÃO PARA CRIAR MENU===============================
 
 	private void ConfigurarMenu() {
@@ -83,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 						@Override
 						public boolean onNavigationItemSelected(MenuItem menuItem) {
 							// Seleciona a linha
-							menuItem.setChecked(true);
+//							menuItem.setChecked(true);
 							// Fecha o menu
 							drawerLayout.closeDrawers();
 							// Trata o evento do menu

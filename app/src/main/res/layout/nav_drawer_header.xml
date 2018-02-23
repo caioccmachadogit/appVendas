@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/containerNavDrawerListViewHeader"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:gravity="center"
     android:layout_height="@dimen/navDrawerBackground_layout_height"
@@ -27,4 +28,12 @@
             android:textSize="@dimen/dimens_20"
             android:textStyle="italic|bold" />
     </LinearLayout>
+
+    <View
+        android:padding="@dimen/dimens_10"
+        android:layout_marginTop="@dimen/dimens_20"
+        android:paddingBottom="@dimen/dimens_20"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
 </LinearLayout>
