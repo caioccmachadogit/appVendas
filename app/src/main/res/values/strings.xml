@@ -5,6 +5,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">v.220218</string> <!--CORRECAO COMPROVANTE CAMPO DATA -->
+    <string name="versao">SCP Vendas v.230218</string> <!--CORRECAO COMPROVANTE CAMPO DATA -->
     <string name="action_compartilhar">Compartilhar</string>
     <string name="title_activity_splash">SplashActivity</string>
 
@@ -19,6 +20,10 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="itemSinc">Sincronizar</string>
+    <string name="itemInicio">Iniciar Venda</string>
+    <string name="itemCompr">Comprovantes</string>
+    <string name="itemEnviar">Enviar Vendas</string>
 
 
 </resources>

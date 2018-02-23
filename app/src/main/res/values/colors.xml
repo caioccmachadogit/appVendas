@@ -9,6 +9,12 @@
     <color name="pink_pressed">#ec407a</color>
     <color name="blue_semi_transparent">#805677fc</color>
     <color name="blue_semi_transparent_pressed">#80738ffe</color>
-
+    <color name="redimonitoreSelected">#81091f</color>
     <color name="edt_nome_clie">#1f00ac84</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
 </resources>
