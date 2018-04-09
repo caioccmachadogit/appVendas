@@ -24,12 +24,12 @@ public class AsyncAtualizacao extends AsyncTask<String, String, String> {
     @Override
     protected void onPreExecute() {
         //---Inicia a espera do progresso---
-		pd = ProgressDialog.show(activity, "Atualizações", "Verificando...");
+		pd = ProgressDialog.show(activity, "AtualizaÃ§Ãµes", "Verificando...");
     }
 
     @Override
     protected String doInBackground(String... params) {
-        //---Executa a Requisição
+        //---Executa a Requisicao
         String jsonResponse = "";
         try{
             Thread.sleep(5000);
@@ -46,7 +46,7 @@ public class AsyncAtualizacao extends AsyncTask<String, String, String> {
     @Override
 	protected void onPostExecute(String result)
 	{
-		//---Executa a Pos-Requisição
+		//---Executa a Pos-Requisicao
 		ti.responseAsyncAtualizacao(result);
 		this.pd.dismiss();
 	}

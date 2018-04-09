@@ -343,7 +343,7 @@ public class VendasFragment extends Fragment {
             }
         });
 
-        builder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("NÃ£o", new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -393,7 +393,7 @@ public class VendasFragment extends Fragment {
                                         }
                                     });
 
-                                    builder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+                                    builder.setNegativeButton("NÃ£o", new DialogInterface.OnClickListener() {
 
                                         @Override
                                         public void onClick(DialogInterface dialog, int which) {
@@ -415,7 +415,7 @@ public class VendasFragment extends Fragment {
                     }
                 );
 
-                    builder.setNegativeButton("Não", new DialogInterface.OnClickListener()
+                    builder.setNegativeButton("NÃ£o", new DialogInterface.OnClickListener()
 
                             {
 
@@ -524,7 +524,7 @@ public class VendasFragment extends Fragment {
                 tit = "Produtos por Nome";
             }
             else
-                tit = "Produtos por Cód.";
+                tit = "Produtos por CÃ³d.";
 
             final Dialog dialog = new Dialog(getActivity());
             dialog.setContentView(R.layout.dialog_produtos);
@@ -568,7 +568,7 @@ public class VendasFragment extends Fragment {
             dialog.show();
         }
         else
-            Toast.makeText(getActivity(), "Não possui Produtos, favor Atualizar!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "NÃ£o possui Produtos, favor Atualizar!", Toast.LENGTH_SHORT).show();
     }
 
     private void PreencherCamposProduto(String selected) {
@@ -687,7 +687,7 @@ public class VendasFragment extends Fragment {
                 tit = "Clientes por Nome";
             }
             else
-                tit = "Clientes por Cód.";
+                tit = "Clientes por CÃ³d.";
 
             final Dialog dialog = new Dialog(getActivity());
             dialog.setContentView(R.layout.dialog_clientes);
@@ -730,7 +730,7 @@ public class VendasFragment extends Fragment {
             dialog.show();
         }
         else
-            Toast.makeText(getActivity(), "Não possui Clientes, favor Atualizar!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "NÃ£o possui Clientes, favor Atualizar!", Toast.LENGTH_SHORT).show();
     }
 
     private void PreencherCamposCliente(String selectedClien) {
@@ -785,7 +785,7 @@ public class VendasFragment extends Fragment {
             }
         });
 
-        builder.setNegativeButton("Não", new DialogInterface.OnClickListener() {
+        builder.setNegativeButton("NÃ£o", new DialogInterface.OnClickListener() {
 
             @Override
             public void onClick(DialogInterface dialog, int which) {

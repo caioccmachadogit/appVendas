@@ -69,7 +69,7 @@ public class FormAuthActivity extends AppCompatActivity {
                     new AsyncAuth(FormAuthActivity.this,authInterface).execute(edtCod.getText().toString());
                 }
                 else {
-				Toast.makeText(FormAuthActivity.this, "Verifique sua Conex„o com a Internet e tente novamente!", Toast.LENGTH_SHORT).show();
+				Toast.makeText(FormAuthActivity.this, "Verifique sua Conex√£o com a Internet e tente novamente!", Toast.LENGTH_SHORT).show();
 			    }
             }
         }
@@ -98,10 +98,10 @@ public class FormAuthActivity extends AppCompatActivity {
                              startActivity(i);
                         }
                         else
-                            Toast.makeText(FormAuthActivity.this, "Dispositivo n„o Autenticado, Verifique o CÛdigo!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(FormAuthActivity.this, "Dispositivo n√£o Autenticado, Verifique o C√≥digo!", Toast.LENGTH_SHORT).show();
                     }
                     else
-                        Toast.makeText(FormAuthActivity.this, "Problemas com a RequisiÁ„o, tente mais tarde!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(FormAuthActivity.this, "Problemas com a Requisi√ß√£o, tente mais tarde!", Toast.LENGTH_SHORT).show();
                 }
             }
         };

@@ -89,7 +89,7 @@ public class ComprovantesActivity extends PrintScreenUtil {
             FormUtil.CalculeHeightListView(lvProds);
         }
         catch (Exception ex){
-            Toast.makeText(this, "Não foi possível gerar o Comprovante!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "NÃ£o foi possÃ­vel gerar o Comprovante!", Toast.LENGTH_SHORT).show();
         }
     }
 

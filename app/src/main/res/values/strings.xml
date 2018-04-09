@@ -4,8 +4,8 @@
     <string name="tit_comp">Comprovante</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">v.220218</string> <!--CORRECAO COMPROVANTE CAMPO DATA -->
-    <string name="versao">SCP Vendas v.280218</string> <!--NOVO MENU -->
+    <string name="action_settings">v.050418</string>
+    <string name="versao">SCP Vendas v.050418</string> <!--SPLASH ACTIVITY -->
     <string name="action_compartilhar">Compartilhar</string>
     <string name="title_activity_splash">SplashActivity</string>
 

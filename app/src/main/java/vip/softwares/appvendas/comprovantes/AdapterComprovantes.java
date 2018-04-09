@@ -58,7 +58,7 @@ public class AdapterComprovantes extends ArrayAdapter<Comprovantes> {
 			ViewHolder holder = (ViewHolder) row.getTag();
 			holder.comprovantes = items.get(position);
 
-			String sync = "Não";
+			String sync = "NÃ£o";
             if(holder.comprovantes.getSync().equals("S")){
                 sync = "Sim";
             }

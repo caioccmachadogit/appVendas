@@ -48,10 +48,10 @@ public class ListComprovantesFragment extends Fragment {
                 lvComprovantes.setAdapter(adapter);
             }
             else
-                Toast.makeText(getActivity(), "Não existe nenhuma Venda Finalizada!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "NÃ£o existe nenhuma Venda Finalizada!", Toast.LENGTH_SHORT).show();
         }
         catch (Exception ex){
-            Toast.makeText(getActivity(), "Não foi possível gerar o Comprovante!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "NÃ£o foi possÃ­vel gerar o Comprovante!", Toast.LENGTH_SHORT).show();
         }
     }
 

@@ -76,7 +76,7 @@ public class AtualizacaoFragment extends Fragment{
                             }
                         }
                         else if(msgProd.getCodigo().equals("0")) {
-                            Toast.makeText(getActivity(), "Atualização Produtos Não realizada, Problemas!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "AtualizaÃ§Ã£o Produtos NÃ£o realizada, Problemas!", Toast.LENGTH_SHORT).show();
                         }
 
                         if(msgClien.getCodigo().equals("2")){
@@ -94,11 +94,11 @@ public class AtualizacaoFragment extends Fragment{
                             }
                         }
                         else if(msgClien.getCodigo().equals("0")) {
-                            Toast.makeText(getActivity(), "Atualização Clientes Não realizada, Problemas!", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getActivity(), "AtualizaÃ§Ã£o Clientes NÃ£o realizada, Problemas!", Toast.LENGTH_SHORT).show();
                         }
                     }
                     else
-                        Toast.makeText(getActivity(), "Problemas com a Requisição!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Problemas com a RequisiÃ§Ã£o!", Toast.LENGTH_SHORT).show();
                 }
             }
         };
